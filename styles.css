@@ -1,0 +1,49 @@
+/* Background (from CSS1) */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    font-family: 'Metropolis', sans-serif;
+    font-weight: bold;
+    color: #ecf0f1;
+}
+
+img {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute; /* Ensures clock is layered above the background image */
+    z-index: -1;
+}
+
+/* Clock (from CSS2) */
+#clock {
+    font-size: 4.5rem;
+    letter-spacing:0rem;
+    position: absolute; /* Position it explicitly */
+    left: 0; /* Align it to the left side */
+    top: 50%; /* Vertically center the clock */
+    transform: translateY(-50%); /* Fine-tune vertical centering */
+    padding: 1rem 2rem; /* Add padding to the clock for better background spacing */
+    background: #ffffff4d; /* Nearly transparent white background */
+    border-radius: 15px; /* Rounded corners */
+    backdrop-filter: blur(10px); /* Apply a blur effect to the background */
+    color: #ecf0f1; /* Text color */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Shadow to elevate the clock */
+    margin-left: 90px;
+}
+
+.colon {
+    margin: -0.9rem;  /* Adjusted to bring the colons closer */
+    animation: blink 1s steps(1, end) infinite;
+}
+
+@keyframes blink {
+    0%, 50% { opacity: 1; }
+    51%, 100% { opacity: 0; }
+}
