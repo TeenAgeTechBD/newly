@@ -28,7 +28,7 @@ fetch(apiURL)
             // Display the random image
             const img = document.createElement('img');
             img.src = randomImage.download_url;
-            img.alt = 'Random Wallpaper';
+            img.alt = 'Loading...';
             document.body.appendChild(img);
         } else {
             alert('No images found in the repository.');
