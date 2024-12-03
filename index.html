@@ -6,6 +6,7 @@
     <title>New Tab</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Metropolis:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=search" />
     <link rel="icon"  type="image/x-icon" href="/images/favicon.ico">
 </head>
 <body>
@@ -18,7 +19,16 @@
         <span id="seconds">00</span>
         <span id="ampm">AM</span> <!-- This will display AM or PM -->
     </div>
-    
+    <div class="search">
+        <form action="https://www.google.com/search" method="get">
+            <div class="search-container">
+                <input type="text" name="q" placeholder="Search Google..." required>
+                <button type="submit">
+                    <span class="material-symbols-outlined">search</span>
+                </button>
+            </div>
+        </form>
+    </div>
 
     <!-- Scripts -->
     <script src="script_for_clock.js"></script>
