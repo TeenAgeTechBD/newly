@@ -20,6 +20,6 @@ Yet another new tab page for your desktop web browser
 
 ## About The Project
 
-![Product Screenshot](blob:https://imgur.com/0c536001-5d50-4822-850f-9c0d24561f4d)
+![Product Screenshot]([blob:https://imgur.com/0c536001-5d50-4822-850f-9c0d24561f4d](https://i.imgur.com/ZzlM0MC.png))
 
 This project yet this README file is also under construction
