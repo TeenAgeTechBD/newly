@@ -12,7 +12,7 @@ Yet another new tab page for your desktop web browser
 <a href="https://saimonislamprantik.github.io/"><strong>Explore the docs »</strong></a>
 <br/>
 <br/>
-<a href="https://saimonislamprantik.github.io/newly/">View Demo .</a>  
+<a href="https://teenagetechbd.github.io/newly/">View Demo .</a>  
 <a href="https://github.com/SaimonIslamPrantik/newly/issues/new">Report Bug .</a>
 <a href="https://github.com/SaimonIslamPrantik/newly/issues/new">Request Feature</a>
 </p>
@@ -20,6 +20,6 @@ Yet another new tab page for your desktop web browser
 
 ## About The Project
 
-![Product Screenshot](https://i.imgur.com/ZzlM0MC.png)
+![Product Screenshot](https://i.imgur.com/HoZZwMP.png)
 
 This project yet this README file is also under construction
