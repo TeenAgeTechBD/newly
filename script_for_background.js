@@ -1,4 +1,4 @@
-const owner = 'SaimonIslamPrantik';
+const owner = 'TeenAgeTechBD';
 const repo = 'wallpapers';
 
 const apiURL = `https://api.github.com/repos/${owner}/${repo}/contents/`;
