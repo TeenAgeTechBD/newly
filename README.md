@@ -22,4 +22,4 @@ Yet another new tab page for your desktop web browser
 
 ![Product Screenshot](https://i.imgur.com/HoZZwMP.png)
 
-This project yet this README file is also under construction
+This project heck this README file is also under construction
